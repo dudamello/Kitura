@@ -1,0 +1,4 @@
+module agentcore {
+    umbrella "/Users/eduardamello/Dropbox (DeveloperAcademy-BR)/Academy2020/Backend/KituraServer/.build/checkouts/omr-agentcore/src/agentcore/include"
+    export *
+}

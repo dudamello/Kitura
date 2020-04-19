@@ -15,6 +15,7 @@ public class App {
     let cloudEnv = CloudEnv()
 
     public init() throws {
+        Persistence.setUp()
         // Configure logging
         initializeLogging()
         // Run the metrics initializer
@@ -26,6 +27,8 @@ public class App {
         initializeHealthRoutes(app: self)
         initializeGetRoutes(app: self)
         initializeEntryRoutes(app: self)
+        initializeBasicAuth(app: self)
+        initializeUserRoutes(app: self)
         KituraOpenAPI.addEndpoints(to: router)
     }
 

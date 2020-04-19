@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "KituraServer::KituraServer"
-               BuildableName = "KituraServer"
-               BlueprintName = "KituraServer"
+               BlueprintIdentifier = "KituraServer::Application"
+               BuildableName = "Application.framework"
+               BlueprintName = "Application"
                ReferencedContainer = "container:KituraServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "KituraServer::Application"
-               BuildableName = "Application.framework"
-               BlueprintName = "Application"
+               BlueprintIdentifier = "KituraServer::KituraServer"
+               BuildableName = "KituraServer"
+               BlueprintName = "KituraServer"
                ReferencedContainer = "container:KituraServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

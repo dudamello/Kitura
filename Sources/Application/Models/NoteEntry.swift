@@ -7,12 +7,13 @@
 
 import Foundation
 import KituraContracts
+import SwiftKueryORM
 
 struct NoteEntryParams:QueryParams {
     var label:String?
 }
 
-struct NoteEntry:Codable{
+struct NoteEntry:Model{
     var id:String?
     var text:String
     var label:String
